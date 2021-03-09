@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Footer from "components/footers/SimpleFiveColumn.js";
+import Footer from "components/footers/MiniCenteredFooter";
 import {expandLinkedList} from "agility/utils"
 
 const GlobalFooter = (props) => {

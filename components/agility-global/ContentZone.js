@@ -15,7 +15,7 @@ function ContentZone ({ name, page, dynamicPageItem }) {
 					key={m.item.contentID}
 					page={page}
 					dynamicPageItem={dynamicPageItem}
-					{...m.item}
+					{...m.item} // spread all received props into the component
 				/>
 			);
 		});
